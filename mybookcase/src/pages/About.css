@@ -1,0 +1,12 @@
+body {
+    background-color: lightcyan;
+};
+
+h1 {
+    color: lightcoral;
+    font-family: Arial, Helvetica, sans-serif;
+};
+
+h1, p {
+    border: 50px solid lightcoral
+};

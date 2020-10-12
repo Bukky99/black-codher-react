@@ -32,7 +32,7 @@ const Book = (props) => {
     <h2>{title} - {renderAuthors()} </h2>
     <p>{renderAmount()}</p>
     <p>{description}</p>
-    <button onClick={() => props.addBook(title)}>Remove - </button>
+    <button onClick={() => props.addBook(title)}>Add + </button>
  </div>
 
  );

@@ -3,6 +3,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import data from './models/books.json';
 import BookList from './components/BookList';
 import Header from './components/Header';
+import About from './pages/About';
 
 const App = (props) => {
 
@@ -42,6 +43,12 @@ return (
 <Route path="/bookcase" render={() => (
    <React.Fragment>
       <Header />
+      <BookList books={books} addBook={addBook}/>
+   </React.Fragment>
+)} />
+<Route path="/about" render={() => (
+   <React.Fragment>
+      <About />
       <BookList books={books} addBook={addBook}/>
    </React.Fragment>
 )} />
