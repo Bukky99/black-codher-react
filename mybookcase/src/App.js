@@ -34,7 +34,13 @@ setBooks(newBooks)*/}
 
 return (
 <BrowserRouter>
-<Route path="/" render={() => (
+<Route path="/about" render={() => (
+   <React.Fragment>
+      <About />
+   </React.Fragment>
+)} />
+   
+<Route exact path="/" render={() => (
    <React.Fragment>
       <Header />
       <BookList books={books} addBook={addBook}/>
@@ -46,13 +52,7 @@ return (
       <BookList books={books} addBook={addBook}/>
    </React.Fragment>
 )} />
-<Route path="/about" render={() => (
-   <React.Fragment>
-      <About />
-      <BookList books={books} addBook={addBook}/>
-   </React.Fragment>
-)} />
-   
+
 </BrowserRouter>
 )
 }
