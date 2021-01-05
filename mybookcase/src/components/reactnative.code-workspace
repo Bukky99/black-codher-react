@@ -1,0 +1,19 @@
+{
+  "folders": [
+    {
+      "path": "..\\..\\..\\..\\..\\..\\Desktop\\black-codher"
+    },
+    {
+      "path": "..\\..\\..\\..\\Javascript-Project"
+    },
+    {
+      "path": "..\\..\\.."
+    },
+    {
+      "path": "..\\..\\..\\..\\black-codher-nodejs"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Javascript-Project"
+  }
+}

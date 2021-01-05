@@ -1,6 +1,11 @@
-body {
-    background-color: lightcyan;
+body {    
+    background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+    
 }
+
+/*.aboutStyle {
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photo%2Fstack-books-black-background_2543764.htm&psig=AOvVaw0fawo9nIS1rxyUdOAzoHiz&ust=1603191828653000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNDJ6ozBwOwCFQAAAAAdAAAAABAJ);
+}*/
 
 h1 {
     text-align: center;
@@ -12,6 +17,6 @@ p {
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 200%;
-    border: 10px solid lightcoral;
+    /*border: 10px solid lightcoral;*/
     text-align: center;
 }

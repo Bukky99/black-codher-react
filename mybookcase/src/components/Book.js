@@ -14,17 +14,13 @@ const Book = (props) => {
         return;
     }
 
-    const renderAuthors = () => {
+    const renderAuthors = () => { 
         if(authors.length === 1) {
             return authors;
         }
         return authors.map(author => author + ', ');
-        }
-
-        function addBook(title) {
-            console.log(`The Book ${title} was clicked`);
-
-            }
+    }
+    
 
  return (
  <div>
